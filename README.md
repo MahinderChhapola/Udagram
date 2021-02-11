@@ -1,13 +1,13 @@
 # Udagram
-Deploy a highly available web application in aws using cloudformation. 
+Deploy web servers for a highly available and scalable web app using CloudFormation.
 
 ## Architecture Diagram
 
 ![Diagram](Project%202.jpeg)
 
- The **network.yml** file is for creating the network VPC, Subnets, Internet Gateway etc. and **network-parameters.json** for input parameters. 
- The **servers.yml** file is used for creating the webservers which include the Load Balancer, AutoScaling Groups, Security Groups, Cloudwatch, IAMRole and passing the **server-parameters.json** file as the input. 
- There are also a couple of batch files for creation and updation of the stacks. 
+ The network.yml file is used for creating the VPC, Subnets, Internet Gateway etc while passing the network-parameters.json for input parameters. 
+ The servers.yml file is used for creating the webservers which include the Load Balancer, AutoScaling Groups, Security Groups, Cloudwatch, IAMRole and server-parameters.json file for parameters. 
+ The batch files have been used for creation and updation of the stacks.
 
 ## How to run
 
