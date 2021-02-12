@@ -26,3 +26,5 @@ create Udagram-webapp servers.yml server-parameters.json
 ## Webapp Access
 
 Output of the servers.yml will have the LB url.
+
+http://udagr-webap-1t2ibu3qznoqp-1814298710.eu-west-1.elb.amazonaws.com/
